@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="homework28:war exploded" />
+      <artifact name="homework33:war" />
+      <artifact name="homework33:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,21 +11,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e06aaa1a-6e3a-405f-a90e-5ada9886b31f" name="Changes" comment="под 28 домашку выделен отдельный модуль">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/homework33_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/homework33_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework33_ex1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework33_ex1/src/main/java/tms_maven/DBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework33_ex1/src/main/java/tms_maven/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework33_ex1/src/main/java/tms_maven/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework33_ex1/src/main/java/tms_maven/UserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework33_ex1/src/main/java/tms_maven/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework28" />
+        <entry key="$PROJECT_DIR$" value="homework30" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -50,28 +77,51 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.UserService.executor": "Run",
+    "Database Script.query.sql.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 10.1.55 (1).executor": "Run",
+    "Tomcat Server.Tomcat 10.1.55.executor": "Run",
     "Tomcat Server.Tomcat 10.1.56.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Merging homework28",
+    "git-widget-placeholder": "homework33__ex1",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Евоптыч/IdeaProjects/tms_tomcat/TMS-tomcat/homework33_ex1/src/main/java/tms_maven",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Евоптыч/IdeaProjects/tms_tomcat/TMS-tomcat/homework33_ex1/src/main/java/tms_maven/Main.java",
     "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "9d13b45b-d160-422a-883a-bb807de4d98e/database/\"postgres\"/schema/\"public\""
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Евоптыч\IdeaProjects\tms_tomcat\TMS-tomcat\homework33_ex1\src\main\java\tms_maven" />
+      <recent name="C:\Users\Евоптыч\IdeaProjects\tms_tomcat\TMS-tomcat\homework33\src\main\java\tms_maven\homework33" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationStatuses">
       <map>
         <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
           <value>
             <map>
-              <entry key="Tomcat 10.1.56" value="STOPPED" />
+              <entry key="Tomcat 10.1.55" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -79,44 +129,40 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 10.1.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.56" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment>
-        <artifact name="homework28:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/homework28_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="cc5898d9-fbb1-43bd-9888-8ed198e04046" />
-      </server-settings>
+    <configuration name="query.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/query.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="9d13b45b-d160-422a-883a-bb807de4d98e" namespace="database/&quot;postgres&quot;/schema/&quot;public&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="tomcat" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="tomcat" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="homework28:war exploded" />
-        </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.query.sql" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -135,6 +181,12 @@
       <updated>1783346417949</updated>
       <workItem from="1783346421743" duration="561000" />
       <workItem from="1783348822193" duration="2271000" />
+      <workItem from="1784620349331" duration="1710000" />
+      <workItem from="1785838216091" duration="3228000" />
+      <workItem from="1785915709272" duration="1808000" />
+      <workItem from="1786095474305" duration="1467000" />
+      <workItem from="1786635652968" duration="1411000" />
+      <workItem from="1787139754860" duration="3822000" />
     </task>
     <task id="LOCAL-00001" summary="под 28 домашку выделен отдельный модуль">
       <option name="closed" value="true" />
@@ -173,5 +225,16 @@
     <MESSAGE value="под 28 домашку выделен отдельный модуль" />
     <MESSAGE value="fixup! под 28 домашку выделен отдельный модуль" />
     <option name="LAST_COMMIT_MESSAGE" value="fixup! под 28 домашку выделен отдельный модуль" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/homework30/src/main/java/tms_maven/Main.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
