@@ -11,3 +11,6 @@ CREATE TABLE IF NOT EXISTS users (
 
 CREATE INDEX idx_users_username ON users(username);
 CREATE INDEX idx_users_email ON users(email);
+
+INSERT INTO users (username, email, password, first_name, last_name)
+VALUES ('test', 'test@test.com', 'test123', 'Test', 'Test');
