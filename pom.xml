@@ -12,6 +12,7 @@
 
     <modules>
         <module>homework28</module>
+        <module>homework33_ex1</module>
     </modules>
 
     <properties>
