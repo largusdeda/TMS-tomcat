@@ -1,4 +1,4 @@
-package tms_maven;
+package tms_maven.homework33_ex2;
 
 import java.sql.*;
 import java.time.LocalDateTime;
