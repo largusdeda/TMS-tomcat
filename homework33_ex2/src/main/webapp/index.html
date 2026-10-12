@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление пользователями</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Управление пользователями</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5>Получить пользователя</h5>
+                </div>
+                <div class="card-body">
+                    <form action="/get" method="get" target="_blank">
+                        <div class="mb-3">
+                            <label for="getUserId" class="form-label">ID пользователя:</label>
+                            <input type="number" class="form-control" id="getUserId" name="id" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Получить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h5>Создать пользователя</h5>
+                </div>
+                <div class="card-body">
+                    <form action="/create" method="post" target="_blank">
+                        <div class="mb-3">
+                            <label for="login" class="form-label">Логин (юзернейм):</label>
+                            <input type="text" class="form-control" id="login" name="login" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Пароль:</label>
+                            <input type="text" class="form-control" id="password" name="password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">Имя:</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Фамилия:</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName">
+                        </div>
+                        <button type="submit" class="btn btn-success">Создать</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-warning">
+                    <h5>Изменить логин</h5>
+                </div>
+                <div class="card-body">
+                    <form action="/change-login" method="post" target="_blank">
+                        <div class="mb-3">
+                            <label for="changeId" class="form-label">ID пользователя:</label>
+                            <input type="number" class="form-control" id="changeId" name="id" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="newLogin" class="form-label">Новый логин:</label>
+                            <input type="text" class="form-control" id="newLogin" name="login" required>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Изменить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-danger text-white">
+                    <h5>Удалить пользователя</h5>
+                </div>
+                <div class="card-body">
+                    <form action="/delete" method="get" target="_blank">
+                        <div class="mb-3">
+                            <label for="deleteId" class="form-label">ID пользователя:</label>
+                            <input type="number" class="form-control" id="deleteId" name="id" required>
+                        </div>
+                        <button type="submit" class="btn btn-danger">Удалить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
