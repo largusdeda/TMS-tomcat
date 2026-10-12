@@ -3,6 +3,7 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="homework33_ex2:war exploded" />
+      <artifact name="homework36:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -25,6 +26,23 @@
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/homework33_war.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/homework33_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="94e3d329-f738-455f-b69a-9c2d9fa43f4b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/java/tms_maven/homework36/controller/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/java/tms_maven/homework36/controller/FrontController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/java/tms_maven/homework36/controller/commands/CreateUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/java/tms_maven/homework36/controller/commands/DeleteUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/java/tms_maven/homework36/controller/commands/EditUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/java/tms_maven/homework36/controller/commands/ListUsersCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/java/tms_maven/homework36/controller/commands/SaveUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/java/tms_maven/homework36/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/java/tms_maven/homework36/facade/UserFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/java/tms_maven/homework36/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/java/tms_maven/homework36/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/webapp/views/user-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework36/src/main/webapp/views/user-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/homework33_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/homework33_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -45,7 +63,9 @@
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -67,6 +87,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\maven\repository" />
+        <option name="localRepository" value="D:\maven\repository" />
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
@@ -76,6 +97,7 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="3I8Tr4kzhQ5iUyjq8pEbRVCWeu6" />
+  <component name="ProjectId" id="3IV8SeRTF6CWPfzISv7sO4Frlaj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -118,6 +140,22 @@
       <recent name="tms_maven.homework33_ex2" />
     </key>
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.55.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;homework36&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RunDashboard">
     <option name="configurationStatuses">
       <map>
@@ -136,12 +174,23 @@
       <script-file value="$PROJECT_DIR$/query.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="e0627e48-0f90-46c1-bd09-ec78fd0b2267" namespace="database/&quot;postgres&quot;" />
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="homework28" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="homework28" />
+      <option name="filePath" />
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 10.1.55" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.55" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="homework33_ex2:war exploded">
+        <artifact name="homework36:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -149,6 +198,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="f6c8019f-a4c0-46fa-834c-20274f3f82b3" />
+        <option name="BASE_DIRECTORY_NAME" value="bb15d82d-3c9e-4d06-9193-e63f63112468" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -157,6 +207,7 @@
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="51214" />
+        <option name="DEBUG_PORT" value="51162" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -240,6 +291,20 @@
       <workItem from="1787145400341" duration="7382000" />
       <workItem from="1787217056139" duration="7623000" />
       <workItem from="1787303035318" duration="3437000" />
+          <artifact name="homework36:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94e3d329-f738-455f-b69a-9c2d9fa43f4b" name="Changes" comment="" />
+      <created>1787838378965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787838378965</updated>
+      <workItem from="1787838385063" duration="959000" />
+      <workItem from="1788200133881" duration="2340000" />
     </task>
     <servers />
   </component>
